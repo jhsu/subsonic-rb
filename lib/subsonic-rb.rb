@@ -9,5 +9,5 @@ $:.unshift(File.dirname(__FILE__) + '/subsonic')
 end
 
 module Subsonic
-  autoload :Client, "./subsonic/client"
+  autoload :Client, "./subsonic-rb/client"
 end
